@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -355,19 +356,8 @@ footer{padding:2rem 4rem;border-top:1px solid rgba(201,168,76,.07);display:flex;
         <h3>ContentGen AI</h3>
         <p class="proj-desc">Production-ready Flask app generating blog posts, emails, social content, code snippets and marketing copy via engineered prompt templates. Deployed on Render.</p>
         <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">Flask</span><span class="ptag">Prompt Engineering</span><span class="ptag">JavaScript</span><span class="ptag">Render</span></div>
-        <button class="demo-btn" onclick="tdemo('d-cg',this)">▶ Live Demo</button>
-        <div class="demo-box" id="d-cg">
-          <div class="dtabs">
-            <button class="dtab on" onclick="setCG(this,'Blog Post')">Blog</button>
-            <button class="dtab" onclick="setCG(this,'Email')">Email</button>
-            <button class="dtab" onclick="setCG(this,'Social')">Social</button>
-            <button class="dtab" onclick="setCG(this,'Marketing')">Marketing</button>
-          </div>
-          <textarea class="dinput" id="cg-t" rows="2" placeholder="Enter your topic...">AI and the future of software development</textarea>
-          <button class="drun" onclick="runCG()">Generate Content</button>
-          <div class="dout" id="cg-o" style="display:none"></div>
-        </div>
-        <div class="proj-links"><a href="https://github.com/nonhleB/Content_Generator_project" target="_blank" class="gh-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a></div>
+        <a href="https://content-generator-project-3.onrender.com/" target="_blank" rel="noreferrer noopener" class="demo-btn">▶ Full Demo</a>
+        <div class="proj-links"><a href="https://github.com/nonhleB/Content_Generator_project" target="_blank" rel="noreferrer noopener" class="gh-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a></div>
       </div>
     </div>
 
@@ -378,16 +368,8 @@ footer{padding:2rem 4rem;border-top:1px solid rgba(201,168,76,.07);display:flex;
         <h3>EchoSentiment</h3>
         <p class="proj-desc">NLP-powered sentiment analysis engine that classifies emotional tone of text input with confidence scoring — positive, negative, and neutral detection.</p>
         <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">NLP</span><span class="ptag">Sentiment Analysis</span><span class="ptag">Machine Learning</span></div>
-        <button class="demo-btn" onclick="tdemo('d-echo',this)">▶ Live Demo</button>
-        <div class="demo-box" id="d-echo">
-          <textarea class="dinput" id="echo-in" rows="3" placeholder="Type something to analyse...">I am so proud of how far I've come in my coding journey!</textarea>
-          <button class="drun" onclick="runEcho()">Analyse Sentiment</button>
-          <div id="echo-res" style="display:none;margin-top:.7rem">
-            <span class="semoji" id="echo-emo">😊</span>
-            <div id="echo-bars"></div>
-          </div>
-        </div>
-        <div class="proj-links"><a href="https://github.com/nonhleB/EchoSentimentst" target="_blank" class="gh-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a></div>
+        <a href="https://echosentimentst.onrender.com" target="_blank" rel="noreferrer noopener" class="demo-btn">▶ Full Demo</a>
+        <div class="proj-links"><a href="https://github.com/nonhleB/EchoSentimentst" target="_blank" rel="noreferrer noopener" class="gh-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a></div>
       </div>
     </div>
 
@@ -398,14 +380,7 @@ footer{padding:2rem 4rem;border-top:1px solid rgba(201,168,76,.07);display:flex;
         <h3>HealthPredict</h3>
         <p class="proj-desc">ML classification model predicting patient health risk levels from vitals data — low, moderate, or high risk — built with Scikit-learn and Python.</p>
         <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">Scikit-learn</span><span class="ptag">ML Classification</span><span class="ptag">Healthcare</span></div>
-        <button class="demo-btn" onclick="tdemo('d-hp',this)">▶ Live Demo</button>
-        <div class="demo-box" id="d-hp">
-          <div class="hslider-row"><label>Age</label><input type="range" min="18" max="80" value="30" step="1" oninput="updHP()"><span class="hval" id="h-age">30</span></div>
-          <div class="hslider-row"><label>BMI</label><input type="range" min="15" max="45" value="24" step="1" oninput="updHP()"><span class="hval" id="h-bmi">24</span></div>
-          <div class="hslider-row"><label>BP Sys</label><input type="range" min="90" max="180" value="120" step="1" oninput="updHP()"><span class="hval" id="h-bp">120</span></div>
-          <div class="hslider-row"><label>Glucose</label><input type="range" min="70" max="200" value="95" step="1" oninput="updHP()"><span class="hval" id="h-gl">95</span></div>
-          <div class="hresult low" id="h-res">Low Risk — Vitals within healthy range</div>
-        </div>
+        <a href="https://healthpredict-1-mn09.onrender.com/" target="_blank" rel="noreferrer noopener" class="demo-btn">▶ Full Demo</a>
         <div class="proj-links"><a href="https://github.com/nonhleB/HealthPredict" target="_blank" class="gh-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.805 5.925 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a></div>
       </div>
     </div>
@@ -417,12 +392,8 @@ footer{padding:2rem 4rem;border-top:1px solid rgba(201,168,76,.07);display:flex;
         <h3>AI Chatbot</h3>
         <p class="proj-desc">Conversational AI assistant built with Python and NLP. Handles natural language queries, maintains context, and delivers intelligent, empathetic responses.</p>
         <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">NLP</span><span class="ptag">NLTK</span><span class="ptag">Flask</span><span class="ptag">Conversational AI</span></div>
-        <button class="demo-btn" onclick="tdemo('d-chat',this)">▶ Live Demo</button>
-        <div class="demo-box" id="d-chat">
-          <div class="chat-msgs" id="cmsgs"><div class="cbub b">Hello! ✨ I'm Nonhle's AI assistant. Ask me anything!</div></div>
-          <div class="chat-row"><input type="text" id="cin" placeholder="Type a message..." onkeydown="if(event.key==='Enter')sendC()"/><button class="csend" onclick="sendC()">Send</button></div>
-        </div>
-        <div class="proj-links"><a href="https://github.com/nonhleB/Chatbot" target="_blank" class="gh-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a></div>
+        <a href="https://chatbot-v8gm.onrender.com/" target="_blank" rel="noreferrer noopener" class="demo-btn">▶ Full Demo</a>
+        <div class="proj-links"><a href="https://github.com/nonhleB/Chatbot" target="_blank" rel="noreferrer noopener" class="gh-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>GitHub</a></div>
       </div>
     </div>
 
@@ -653,3 +624,5 @@ window.addEventListener('scroll',()=>{
 </script>
 </body>
 </html>
+
+
